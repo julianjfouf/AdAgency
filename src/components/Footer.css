@@ -1,0 +1,97 @@
+.footer {
+  background-color: #646cff;
+  height: 100%;
+  width: 100vw;
+}
+
+.footer-container {
+  padding: 36px 0px;
+}
+
+.footer-row {
+  height: 100%;
+}
+
+.footer-left {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-description {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.footer-right {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 50px;
+  border-left: 1px solid white;
+  padding: 36px 0px;
+}
+
+.footer-logoLink {
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+
+.footer-logoLink:hover {
+  color: white;
+}
+
+.footer-logoLink::after {
+  content: "Top";
+  font-size: 15px;
+  position: absolute;
+  right: -36px;
+  transform: translateX(-50%) scale(0);
+  top: 40%;
+  transform-origin: left;
+  transition: transform 300ms ease;
+}
+
+.footer-logoLink:hover::after {
+  transform: translateX(0) scale(1);
+  transform-origin: left;
+}
+
+.footer-list {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  gap: 20px;
+}
+
+.list-left,
+.list-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-logo {
+  height: 100%;
+  font-size: 72px;
+}
+
+.footer-links .link {
+  color: white;
+  font-weight: 400;
+  letter-spacing: initial;
+}
+
+.footer-links .link::before {
+  background-color: white;
+}

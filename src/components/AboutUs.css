@@ -1,0 +1,42 @@
+.aboutUs-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.aboutUs-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 720px;
+  padding: 0 40px;
+}
+
+.contactUs-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 720px;
+  padding: 0 40px;
+  height: 100%;
+  border-left: 1px solid #646cff;
+}
+
+.aboutUs-title,
+.aboutUs-description,
+.contactUs-title,
+.contactUs-description {
+  color: black;
+}
+
+.aboutUs-title,
+.contactUs-title {
+  font-size: 72px;
+  margin-bottom: 24px;
+}
